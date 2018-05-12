@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Our Gang</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+        </div>
+        <script src="load_sidebar.js"></script>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          
+            <div class="container-fluid">
+              <div class="h-resume">
+                <div class="h-card">
+                   <div class="row">
+                        <div class="col-md-12">
+                           <h1 class="p-name">Name</h1>
+                        </div>
+                     </div>                            
+                  <div class="row">
+                    <div class="col-md-8">
+                      <h3 class="p-affiliation">Institution/Employer/Stae of Mind <br> Email:<a class="u-email" href="mailto:youremail">your email</a></h3>
+                        <p class="p-summary">What is your tagline?
+                          </p>
+                    </div>
+                     <div class="col-md-4">
+                      <img class="u-photo avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973461_1280.png" alt="">                    
+                      </div>
+                    </div>
+                  </div>
+
+            <div class="row">
+              <div class="col-md-12">
+               <dt class="experience-dt">Open Science Projects</dt>
+                <dd class="experience">
+                    <ul>
+                      <li class="p-experience h-event">
+                            <div class="line1">
+                                <span class="p-location h-card"><a class="p-fn p-org u-url" href="#">Project</a></span>
+                                <span class="p-name">Your Role</span>
+                                <div class="duration">
+                                    <time datetime="2017-08-1" class="dt-start">start</time>
+                                    <time datetime="" class="dt-end">end</time>
+                                </div>
+                            </div>
+                            <div class="line2 p-summary">
+                                <ul>
+                                  <li>Project Sumamry</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="p-experience h-event">
+                            <div class="line1">
+                                <span class="p-location h-card"><a class="p-fn p-org u-url" href="#">Project</a></span>
+                                <span class="p-name">Your Role</span>
+                                <div class="duration">
+                                    <time datetime="2017-02-14" class="dt-start">start</time>
+                                    <time datetime="2017-07-15" class="dt-end">end</time>
+                                </div>
+                            </div>
+                            <div class="line2 p-summary">
+                                <ul>
+                                    <li>Project Summary</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="p-experience h-event">
+                            <div class="line1">
+                                <span class="p-name">Project</span>
+                                <div class="duration">
+                                    <time datetime="2013" class="dt-start">start</time>
+                                    <time datetime="" class="dt-end">end</time>
+                                </div>
+                            </div>
+                            <div class="line2 p-summary">
+                                <ul>
+                                    <li>Project Summary/li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </dd>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Publications</h4>
+                <dt>Journal Articles</dt>
+                <dd>
+                  <cite>
+                    <p class="h-cite"><span class="p-author h-card">Your Name</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                  </cite>
+                </dd>
+                dd>
+                  <cite>
+                    <p class="h-cite"><span class="p-author h-card">Your Name</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                  </cite>
+                </dd>
+                dd>
+                  <cite>
+                    <p class="h-cite"><span class="p-author h-card">Your Name</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                  </cite>
+                </dd>
+              </div>
+            </div>
+               </div>  
+        </div>        
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+<footer><p class="h-card"><a class="u-url p-name" href="#">Open Science Space (name pending)</a> is a place to share our successes in <span class="p-org">#OpenScience</span.</p>
+                  </div></footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
