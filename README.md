@@ -1,2 +1,2 @@
-# opensciencespace
-A quick mock up of a simple HTML site for @protohedgehog
+Open Stories
+A collection of us detailing careers in open source and sharing success storis. 
